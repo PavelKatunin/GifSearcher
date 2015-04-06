@@ -162,8 +162,8 @@ UICollectionViewDelegate>
         self.stateDescriptionsLabel.text = @"Loading";
     }
     else {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         if (self.imageDescriptions.count == 0) {
-            [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
             self.stateDescriptionsLabel.text = @"Try another request";
         }
     }

@@ -6,7 +6,8 @@
 
 static NSString *const kServerHost = @"http://api.giphy.com/";
 // it is not secure solution
-static NSString *const kApiKey = @"dc6zaTOxFJmzC";
+// TODO: set API key
+static NSString *const kApiKey = @"APIKEY";
 
 @interface GiphyFacade ()
 
